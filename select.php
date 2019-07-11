@@ -20,7 +20,7 @@ if ($status == false) {
         $view .= '<p>' .'リンク先 - ' . $result['booklink'] . '</p>';
         // imgタグで出力しよう！
         // $view .= '<img src="'.$result['image'].'" alt="" height="150px">';
-        $view .= '<div><a href="detail.php?id=' . $result['id'] . '" class="badge badge-primary">Edit</a>';
+        // $view .= '<div><a href="detail.php?id=' . $result['id'] . '" class="badge badge-primary">Edit</a>';
         $view .= '<a href="delete.php?id=' . $result['id'] . '" class="badge badge-danger">Delete</a></div>';
         $view .= '</li>';
     }
